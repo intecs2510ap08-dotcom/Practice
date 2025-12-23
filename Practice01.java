@@ -25,6 +25,6 @@ public class Practice01 {
 // numが0-3以外でfalseだった場合
 			System.out.println("0～3の数字を入力してください");
 		}
-		System.out.println("---処理終了---");
+		System.out.println("\\n---処理終了---");
 	}
 }
