@@ -14,10 +14,10 @@ public class Practice01 {
 			System.out.println("おはようございます");			
 		}else if(num == 1) {
 // numが1でtrueだった場合
-			System.out.println("こんにちわ");
+			System.out.println("こんにちは");
 		}else if(num == 2) {
 // numが2でtrueだった場合
-			System.out.println("こんばんわ");			
+			System.out.println("こんばんは");			
 		}else if(num == 3) {
 // numが3でtrueだった場合
 			System.out.println("おやすみなさい");			
