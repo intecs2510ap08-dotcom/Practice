@@ -1,3 +1,4 @@
+// Practice09_01を作成する前の練習問題9(引数あり、戻り値なし)の記述
 import java.util.Scanner;
 
 public class Practice09_01_02 {
@@ -9,10 +10,10 @@ public class Practice09_01_02 {
 		System.out.println("日本語:0 英語:1 を入力してください");
 		num = scan.nextInt();
 		if (num == 0) {
-			profile0(num);
+			profile0(num); // 実はこれだと引数無しでもprofile0,profile1分けているから動いてしまう。。
 		}
-		else if (num == 1) {
-			profile1(num);
+		else if (num == 1) { 
+			profile1(num); // 実はこれだと引数無しでもprofile0,profile1分けているから動いてしまう。。
 		}
 		else {
 			System.out.println("0,1以外の値が入力されました");
