@@ -2,8 +2,6 @@ public class Practice09 {
 	public static void main(String[] args) {
 		profile();
 	}
-
-		
 		
 // 戻り値なし、引数なしメソッド
     public static void profile() {
